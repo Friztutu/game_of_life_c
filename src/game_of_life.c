@@ -57,7 +57,7 @@ void validateUserInput(int user_input, int *game_speed, int *exit_flag) {
         downSpeed(game_speed);
 
     case EXIT_BUTTON_CODE:
-        exit_flag = true;
+        *exit_flag = true;
     }
 }
 
